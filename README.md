@@ -1,4 +1,4 @@
-# Essentials Module
+$ sudo apt-get install git-core# Essentials Module
 
 In deze Essentials modules staan de basis tools en technieken die je als aspirant software ontwikkelaar of data scientist nodig hebt.
 
