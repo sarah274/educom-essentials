@@ -1,0 +1,17 @@
+Voorbeeld 
+
+<message>
+<to>Users</to>
+<from>GeeksforGeeks</from>
+<subject>Welcome message</subject>
+<text>Welcome to GeeksforGeeks</text>
+</message>
+___________________
+
+Rapport:
+Regel 3: message (als een titel)
+Regel 4: To : Users 
+Regel 5: From: GeeksforGeeks
+Regel 6: Subject: Welcome message
+Regel 7: Text: Welcome to GeeksforGeeks
+Regel 8: (the end of the message)

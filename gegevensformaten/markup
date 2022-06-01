@@ -1,0 +1,72 @@
+Voorbeeld 1
+
+**Dit is een voorbeeld**
+
+Markdown heeft diverse *voordelen*:
+
+- Het is gemakkelijk leesbaar in de oorspronkelijke vorm.
+- Je kunt er snel HTML van maken, en het dus gebruiken voor het internet of de HTML openen in bv. Word.
+- Het wordt steeds meer gebruikt, bijvoorbeeld op GitHub en op StackOverflow.
+- Er zijn veel *tools* voor.
+- Zelfs [Lifehacker][lh] is er gek op.
+
+[lh]: http://lifehacker.com/5943320/what-is-markdown-and-why-is-it-better-for-my-to+do-lists-and-notes
+__________________
+Rapport:
+
+Regel 3, 5 en 10: wat zit tussen de ** is een italic tekst.
+Regel 7 tot 9: is gewoon een tekst en de streepjes zijn vertaalt naar een bullet.
+Regel 11: wat zit tussen hakjes [] is underlined.
+Regel 11 en 13: de [1h] betekent een external link.
+
+________________________________________________
+
+Voorbeeld 2
+
+An h1 header
+============
+
+Paragraphs are separated by a blank line.
+
+2nd paragraph. *Italic*, **bold**, and `monospace`. Itemized lists
+look like:
+
+  * this one
+  * that one
+  * the other one
+
+Note that --- not considering the asterisk --- the actual text
+content starts at 4-columns in.
+
+> Block quotes are
+> written like so.
+>
+> They can span multiple paragraphs,
+> if you like.
+_________________________
+Rapport: 
+
+Regel 26: is een Header h1 (dus in groot font)
+Regel 31: tussen * * is Italic, tussen ** ** is bold, en tussen de ' ' is highlighted.
+Regel 34,35 en 36: de * is bullet
+Regel 41 tot 45: is een block quote.
+______________________________________________
+
+Voorbeeld 3
+
+--------  -----------------------
+Keyword   Text
+--------  -----------------------
+red       Sunsets, apples, and
+          other red or reddish
+          things.
+
+green     Leaves, grass, frogs
+          and other things it's
+          not easy being.
+--------  -----------------------
+___________________________
+
+Rapport:
+
+Dit is een table

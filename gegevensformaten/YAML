@@ -1,0 +1,60 @@
+Voorbeeld 1
+
+---
+
+str: Hello World
+data: |
+   These
+   Newlines
+   Are broken up
+data: >
+   This text is
+   wrapped and is a
+   single paragraph
+
+_____________________
+
+Rapport:
+Regel 3: deze streepjes (---) geven het begin van een nieuw YAML document aan.
+Regel 5: str = string en het vertegenwoordigt een zin.
+Regel 6: de (|) betekent elke zin op een aparte regel
+Regel 10:de (>) betekent dat het een paragraph is. 
+__________________________________
+
+Voorbeeld 2: 
+
+first_name: Bilbo
+last_name:  Baggins
+age_years:  111
+# this line will be ignored by the interpreter
+home:       Bag End, Hobbiton # this is ignored too
+
+___________________________________
+
+Rapport: 
+
+Regel 26, 27, 28 en 30: aan de linkerkant zijn de waarde van wat aan de rechterkant. (key : value)
+Regel 29: wat komt achter de (# ) is een opmerking (dus wat komt achter de # wordt genegeerd door het programma dat de YAML interpreteert).
+
+___________________________________________
+
+Voorbeeld 3: 
+
+inputs: # this key has an object value
+  example_flag: # so does this one
+    type: boolean
+    inputBinding: # and this one too
+      position: 1
+      prefix: -f
+
+___________________________________
+
+Rapport:
+
+dit is een 'map'
+Regel 43: toont de naam van de key "input' en het heeft alleen een value
+Regel 44: toont  de naam van de key "example_flags" en die heeft 2 keys "type" en "inputBinding".
+Regel 45: de key "type" heeft 1 value "boolean"
+Regel 46,47 en 48: de key "inputBinding" heeft 2 key-values "position" en "prefix". 
+De key "position" heeft een value "1" 
+De key "prefix" heeft een value "-f"

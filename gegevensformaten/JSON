@@ -1,0 +1,20 @@
+Voorbeeld:
+
+{
+   "book": [
+
+      {
+         "id": "01",
+         "language": "Java",
+         "edition": "third",
+         "author": "Herbert Schildt"
+      },
+_________________________
+
+Rapport:
+ ID = 01
+ Language = Java
+ Edition = Third
+ Author = Herbert Schildt 
+
+ (dus aan de linkerkant is de waarde van wat aan de rechterkant)
