@@ -1,0 +1,20 @@
+Initialisatie (INPUT): ik moet munten hebben. Ik moet de kijken wat wil ik (in dit geval dan snickers). 
+Ik moet dan kijken welke nummer die heeft. Ik moet de nummer toetsen
+
+Verwerking: - munten tellen
+            -nummers kijken
+
+Return (OUTPUT): Snickers
+
+PSD:
+Snickers:=0
+munten:=0
+nummers:=0
+
+zolang 
+
+Totaal:= munten + nummers
+aantal:= snickers +1
+vending machine:= totaal/aantal
+
+return:=  snickers

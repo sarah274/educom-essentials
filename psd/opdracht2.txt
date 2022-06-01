@@ -1,0 +1,19 @@
+Initialisatie (INPUT): koffiemelk is op. ik moet naar de buren, ik moet een mok meenemen.
+Verwerking:       - mok met melk 
+                  -	terug naar huis, koffie toevoegen
+                  -	water toevoegen
+Return (OUTPUT): melk (koffie met melk)
+
+PSD:
+koffiemelk: =0
+koffie:=0
+mok:= 0
+
+zolang de buren de melk geven
+
+totaal:= koffie + koffiemelk +water
+aantal: melk +1
+Mok:= totaal/aantal
+
+return:= koffie (met melk)
+

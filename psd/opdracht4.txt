@@ -1,0 +1,26 @@
+
+Initialisatie (INPUT): ik moet een mok pakken, op de machine neerzetten, kijk naar de opties, 
+druk op het knopje naast de optie, als het klaar is pak ik de koffie 
+
+
+Verwerking: - mok
+		    -neerzetten
+		    -optie kiezen
+		
+Return (OUTPUT): koffie
+
+
+PSD:
+ mok:=0
+optie:=0
+neerzetten:=0
+totaal:= 0
+aantal:=0
+
+zolang 
+
+totaal:= mok+neerzetten 
+aantal:= optie +1
+Koffiemachine:= totaal/aantal
+
+Retun: Koffie
