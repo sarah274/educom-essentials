@@ -1,0 +1,55 @@
+<mxfile host="65bd71144e">
+    <diagram id="KNlxMW4XbzF_efwCfC3s" name="Page-1">
+        <mxGraphModel dx="492" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="20" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;INPUT: koffiemelk is op. ik moet naar de buren, ik moet een kopje meenemen.&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="30" width="430" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;VERWERK: - kopje met melk&lt;/span&gt;&lt;br style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;-terug naar huis, koffie toevoegen&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;-water tovoegen&lt;br&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="60" width="310" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="Return (OUTPUT): melk (koffie met melk)" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="120" width="250" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="80" y="170" width="360" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Kopje:=0" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="23">
+                    <mxGeometry width="330" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="" style="shape=corner;whiteSpace=wrap;html=1;dx=30;dy=30;" vertex="1" parent="23">
+                    <mxGeometry y="90" width="330" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="koffie:=0" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="23">
+                    <mxGeometry y="30" width="330" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="Koffiemelk:=0" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="23">
+                    <mxGeometry y="60" width="330" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;fillColor=none;opacity=80;" vertex="1" parent="23">
+                    <mxGeometry x="30" y="120" width="300" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;fillColor=none;opacity=80;" vertex="1" parent="23">
+                    <mxGeometry x="30" y="150" width="300" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;fillColor=none;opacity=80;" vertex="1" parent="23">
+                    <mxGeometry y="180" width="330" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="zolang de buren de melk geven" style="text;html=1;resizable=0;autosize=1;align=left;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="23">
+                    <mxGeometry x="10" y="95" width="180" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="kopje:=kofffie + koffiemelk +water" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="23">
+                    <mxGeometry x="30" y="155" width="190" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="mijnkopje=BurenDoenMelkInMok (mijnmok)" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="23">
+                    <mxGeometry x="25" y="125" width="250" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="Kopje koffie (koffie met melk)" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="23">
+                    <mxGeometry x="15" y="185" width="170" height="20" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
